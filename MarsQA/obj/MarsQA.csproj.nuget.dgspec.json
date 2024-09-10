@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\IndustryConnect\\MarsQA\\MarsQA\\MarsQA.csproj": {}
+    "C:\\IndustryConnect\\MarsQA_Automation\\MarsQA\\MarsQA.csproj": {}
   },
   "projects": {
-    "C:\\IndustryConnect\\MarsQA\\MarsQA\\MarsQA.csproj": {
+    "C:\\IndustryConnect\\MarsQA_Automation\\MarsQA\\MarsQA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\IndustryConnect\\MarsQA\\MarsQA\\MarsQA.csproj",
+        "projectUniqueName": "C:\\IndustryConnect\\MarsQA_Automation\\MarsQA\\MarsQA.csproj",
         "projectName": "MarsQA",
-        "projectPath": "C:\\IndustryConnect\\MarsQA\\MarsQA\\MarsQA.csproj",
+        "projectPath": "C:\\IndustryConnect\\MarsQA_Automation\\MarsQA\\MarsQA.csproj",
         "packagesPath": "C:\\Users\\tejas\\.nuget\\packages\\",
-        "outputPath": "C:\\IndustryConnect\\MarsQA\\MarsQA\\obj\\",
+        "outputPath": "C:\\IndustryConnect\\MarsQA_Automation\\MarsQA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tejas\\AppData\\Roaming\\NuGet\\NuGet.Config",
