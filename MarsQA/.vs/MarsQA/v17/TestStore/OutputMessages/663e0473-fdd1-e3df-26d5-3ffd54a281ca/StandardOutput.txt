@@ -1,0 +1,71 @@
+current directorySystem.Func`1[System.String]
+URL: http://localhost:5000
+Username: projectmars@gmail.com
+Password: 085200
+Given user logs in to Project Mars
+-> done: LanguagesStepDefinition.GivenUserLogsInToProjectMars() (0.3s)
+And navigate to Skills under profile tab
+-> done: SkillsStepDefinitions.GivenNavigateToSkillsUnderProfileTab() (1.6s)
+When user adds the following skills:
+  --- table step argument ---
+  | Skills     | Level        |
+  | Java       | Beginner     |
+  | python     | Intermediate |
+  | 12345      | Beginner     |
+  | @#$$%^     | Expert       |
+  | pythons    | Expert       |
+  | python u   | Intermediate |
+  | Javaf      | Beginner     |
+  | pytheon    | Intermediate |
+  | 123f45     | Beginner     |
+  | @#$d$%^    | Expert       |
+  | pythgons   | Expert       |
+  | pythgon u  | Intermediate |
+  | Javas      | Beginner     |
+  | pythdon    | Intermediate |
+  | 12345v     | Beginner     |
+  | @#$$%^v    | Expert       |
+  | pythons v  | Expert       |
+  | python u v | Intermediate |
+no Error messsage was found while addding the language record
+no Error messsage was found while addding the language record
+no Error messsage was found while addding the language record
+no Error messsage was found while addding the language record
+no Error messsage was found while addding the language record
+no Error messsage was found while addding the language record
+no Error messsage was found while addding the language record
+no Error messsage was found while addding the language record
+no Error messsage was found while addding the language record
+no Error messsage was found while addding the language record
+no Error messsage was found while addding the language record
+no Error messsage was found while addding the language record
+no Error messsage was found while addding the language record
+no Error messsage was found while addding the language record
+no Error messsage was found while addding the language record
+no Error messsage was found while addding the language record
+no Error messsage was found while addding the language record
+no Error messsage was found while addding the language record
+-> done: SkillsStepDefinitions.WhenUserAddsTheFollowingSkills(<table>) (189.5s)
+Then Verify "18" record are saved
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 60 seconds
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"./td[3]/span/i[@class = 'remove icon']"}
+  (Session info: chrome=129.0.6668.90); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass2_0.<ElementExists>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at MarsQA.Helpers.WaitUtils.waitForElementToBeVisible(By locator) in C:\IndustryConnect\clone\MarsQA\Helpers\WaitUtils.cs:line 29
+   at MarsQA.SpecflowPages.SkillsPage.CleanupSkillsRecords() in C:\IndustryConnect\clone\MarsQA\SpecflowPages\SkillsPage.cs:line 131
+-> error:   exceeded the limit of records
+  Expected: True
+  But was:  False
+ (63.0s)

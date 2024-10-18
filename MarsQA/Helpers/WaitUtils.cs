@@ -15,16 +15,31 @@ namespace MarsQA.Helpers
     {
         private IWebDriver driver;
 
-        public WaitUtils()
+        public WaitUtils(CommonDriver commonDriver)
         {
-            this.driver = CommonDriver.driver;
+            this.driver = commonDriver.Driver;
         }
 
         // Explicit wait for element to be visible
-        public IWebElement waitForElementToBeVisible(By locator, int timeoutInSeconds)
+
+        public IWebElement waitForElementToBeVisible(By locator)
         {
+
             WebDriverWait wait = new WebDriverWait(driver,TimeSpan.FromSeconds(60));
-            return wait.Until(ExpectedConditions.ElementExists(By.Id("id")));
+            return wait.Until(ExpectedConditions.ElementExists(locator));
+        }
+
+        public bool waitForElementToBeInvisible(By locator)
+        {
+
+            WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(20));
+           return wait.Until(ExpectedConditions.InvisibilityOfElementLocated(locator));
+        }
+
+        public bool waitForElementToBeStale(IWebElement locator)
+        {
+            WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(100));
+            return wait.Until(ExpectedConditions.StalenessOf(locator));
         }
 
 

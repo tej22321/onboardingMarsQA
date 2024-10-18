@@ -11,37 +11,59 @@ namespace MarsQA.SpecflowPages
 {
     public class LoginPage
     {
-        private IWebDriver driver;
-        public LoginPage() {
-            this.driver = CommonDriver.driver;
-        }
-        public void LoginSteps()
+        private readonly  IWebDriver driver;
+        public  LoginPage( CommonDriver commonDriver) {
+           
+           this.driver = commonDriver.Driver;
+           }
+
+      
+        private  IWebElement SignInElement => driver.FindElement(By.XPath("//a[contains(text(),'Sign In')]"));
+        private IWebElement EmailElmement => driver.FindElement(By.XPath("//input[@name = 'email']"));
+        private IWebElement PasswordElement => driver.FindElement(By.XPath("//input[@name = 'password']"));
+        private IWebElement LoginEleemnt => driver.FindElement(By.XPath("//button[contains(text(),'Login')]"));
+        private IWebElement ProfileElement => driver.FindElement(By.XPath("//a[text()='Profile']"));
+        private IWebElement SignoutElement => driver.FindElement(By.XPath("//button[contains(text(),'Sign Out')]"));
+
+        public  void ClickSingIn()
         {
-            try
-            {
-               
-                driver.Navigate().GoToUrl(Config.Url);
-                Thread.Sleep(1500);
-
-                driver.FindElement(By.XPath("//a[contains(text(),'Sign In')]")).Click();
-                driver.FindElement(By.XPath("//input[@name = 'email']")).SendKeys(Config.Username);
-                driver.FindElement(By.XPath("//input[@name = 'password']")).SendKeys(Config.Password);
-                driver.FindElement(By.XPath("//button[contains(text(),'Login')]")).Click();
-            }
-
-            catch (NoSuchElementException e)
-            {
-                Console.WriteLine("Element not found: " + e.Message);
-            }
-            catch (WebDriverException e)
-            {
-                Console.WriteLine("WebDriver error: " + e.Message);
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("General error: " + e.Message);
-            }
+            SignInElement.Click();
         }
 
+
+        public void ClickSingOut()
+        {
+
+            SignoutElement.Click();
+        }
+        public void ClickProfileTab()
+        {
+            ProfileElement.Click();
+        }
+
+        public void EnterUserName(String name)
+        {
+            EmailElmement.SendKeys(name);
+        }
+
+        public void EnterPassword(String password)
+        {
+            PasswordElement.SendKeys(password);
+        }
+
+        public void ClickLogin()
+        {
+            LoginEleemnt.Click();
+        }
+
+      
+       
+        public bool VerifyLanguageRecordCreated()
+        {
+
+            return true;
+        }
     }
 }
+
+

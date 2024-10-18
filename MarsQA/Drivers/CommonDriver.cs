@@ -11,9 +11,9 @@ namespace MarsQA.Drivers
 {
     public class CommonDriver
     {
-        public static IWebDriver driver;
+        private  IWebDriver driver;
 
-        public static IWebDriver Driver
+        public  IWebDriver Driver
         {
             get
             {
@@ -25,7 +25,7 @@ namespace MarsQA.Drivers
             }
         }
 
-        public static void InitializeDriver(string browser)
+        public  void InitializeDriver(string browser)
         {
             if (driver == null)
             {
@@ -33,7 +33,8 @@ namespace MarsQA.Drivers
                 {
                     case "chrome":
                         driver = new ChromeDriver();
-                        break;
+                       
+                          break;
                     case "firefox":
                         driver = new FirefoxDriver();
                         break;
@@ -45,12 +46,13 @@ namespace MarsQA.Drivers
             }
         }
 
-        public static void CloseDriver()
+        public  void CloseDriver()
         {
             if (driver != null)
             {
                 driver.Quit();
                 driver = null;
+                
             }
         }
 
