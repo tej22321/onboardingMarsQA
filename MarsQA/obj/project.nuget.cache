@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TnqUQZVB3ShbBOpzixml6a3z8BXDfTGfh/M7bYGwlP/9c+4InIDn+h0mdcykT4OkR1Xn+pX18l/Ig5skHpEWEA==",
+  "dgSpecHash": "qlzSoX2aWwEenrmiFl7bu9H63uCkkdRPZ6MMv8/L9wGE9Vaw5hJyzTpwpfqisCXiqC+ckdt/GeCFMPjpZ9F2Yw==",
   "success": true,
-  "projectFilePath": "C:\\IndustryConnect\\MarsQA\\MarsQA\\MarsQA.csproj",
+  "projectFilePath": "C:\\IndustryConnect\\clone\\MarsQA\\MarsQA.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tejas\\.nuget\\packages\\bodi\\1.5.0\\bodi.1.5.0.nupkg.sha512",
     "C:\\Users\\tejas\\.nuget\\packages\\fluentassertions\\6.2.0\\fluentassertions.6.2.0.nupkg.sha512",
@@ -49,7 +49,7 @@
     "C:\\Users\\tejas\\.nuget\\packages\\seleniumextras.waithelpers\\1.0.2\\seleniumextras.waithelpers.1.0.2.nupkg.sha512",
     "C:\\Users\\tejas\\.nuget\\packages\\specflow\\3.9.74\\specflow.3.9.74.nupkg.sha512",
     "C:\\Users\\tejas\\.nuget\\packages\\specflow.internal.json\\1.0.8\\specflow.internal.json.1.0.8.nupkg.sha512",
-    "C:\\Users\\tejas\\.nuget\\packages\\specflow.nunit\\3.9.40\\specflow.nunit.3.9.40.nupkg.sha512",
+    "C:\\Users\\tejas\\.nuget\\packages\\specflow.nunit\\3.9.74\\specflow.nunit.3.9.74.nupkg.sha512",
     "C:\\Users\\tejas\\.nuget\\packages\\specflow.plus.livingdocplugin\\3.9.57\\specflow.plus.livingdocplugin.3.9.57.nupkg.sha512",
     "C:\\Users\\tejas\\.nuget\\packages\\specflow.tools.msbuild.generation\\3.9.74\\specflow.tools.msbuild.generation.3.9.74.nupkg.sha512",
     "C:\\Users\\tejas\\.nuget\\packages\\system.appcontext\\4.1.0\\system.appcontext.4.1.0.nupkg.sha512",
@@ -105,26 +105,5 @@
     "C:\\Users\\tejas\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\tejas\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: SpecFlow.NUnit 3.9.40 requires SpecFlow (= 3.9.40) but version SpecFlow 3.9.74 was resolved.",
-      "libraryId": "SpecFlow",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: SpecFlow.NUnit 3.9.40 requires SpecFlow.Tools.MsBuild.Generation (= 3.9.40) but version SpecFlow.Tools.MsBuild.Generation 3.9.74 was resolved.",
-      "libraryId": "SpecFlow.Tools.MsBuild.Generation",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

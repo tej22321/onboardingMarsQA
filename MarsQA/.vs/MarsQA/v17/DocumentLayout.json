@@ -1,0 +1,209 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\IndustryConnect\\clone\\MarsQA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{99DD332F-6500-46D3-92F3-897240279A1E}|MarsQA.csproj|c:\\industryconnect\\clone\\marsqa\\features\\skills.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{99DD332F-6500-46D3-92F3-897240279A1E}|MarsQA.csproj|solutionrelative:features\\skills.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99DD332F-6500-46D3-92F3-897240279A1E}|MarsQA.csproj|c:\\industryconnect\\clone\\marsqa\\specflowpages\\skillspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99DD332F-6500-46D3-92F3-897240279A1E}|MarsQA.csproj|solutionrelative:specflowpages\\skillspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99DD332F-6500-46D3-92F3-897240279A1E}|MarsQA.csproj|c:\\industryconnect\\clone\\marsqa\\stepdefinitions\\languagesstepdefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99DD332F-6500-46D3-92F3-897240279A1E}|MarsQA.csproj|solutionrelative:stepdefinitions\\languagesstepdefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99DD332F-6500-46D3-92F3-897240279A1E}|MarsQA.csproj|c:\\industryconnect\\clone\\marsqa\\features\\languages.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{99DD332F-6500-46D3-92F3-897240279A1E}|MarsQA.csproj|solutionrelative:features\\languages.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99DD332F-6500-46D3-92F3-897240279A1E}|MarsQA.csproj|c:\\industryconnect\\clone\\marsqa\\stepdefinitions\\skillsstepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99DD332F-6500-46D3-92F3-897240279A1E}|MarsQA.csproj|solutionrelative:stepdefinitions\\skillsstepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99DD332F-6500-46D3-92F3-897240279A1E}|MarsQA.csproj|c:\\industryconnect\\clone\\marsqa\\specflowpages\\languagespage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99DD332F-6500-46D3-92F3-897240279A1E}|MarsQA.csproj|solutionrelative:specflowpages\\languagespage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99DD332F-6500-46D3-92F3-897240279A1E}|MarsQA.csproj|c:\\industryconnect\\clone\\marsqa\\helpers\\waitutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99DD332F-6500-46D3-92F3-897240279A1E}|MarsQA.csproj|solutionrelative:helpers\\waitutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99DD332F-6500-46D3-92F3-897240279A1E}|MarsQA.csproj|c:\\industryconnect\\clone\\marsqa\\hooks\\hooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99DD332F-6500-46D3-92F3-897240279A1E}|MarsQA.csproj|solutionrelative:hooks\\hooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99DD332F-6500-46D3-92F3-897240279A1E}|MarsQA.csproj|c:\\industryconnect\\clone\\marsqa\\specflowpages\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99DD332F-6500-46D3-92F3-897240279A1E}|MarsQA.csproj|solutionrelative:specflowpages\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99DD332F-6500-46D3-92F3-897240279A1E}|MarsQA.csproj|c:\\industryconnect\\clone\\marsqa\\configuration\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99DD332F-6500-46D3-92F3-897240279A1E}|MarsQA.csproj|solutionrelative:configuration\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99DD332F-6500-46D3-92F3-897240279A1E}|MarsQA.csproj|c:\\industryconnect\\clone\\marsqa\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{99DD332F-6500-46D3-92F3-897240279A1E}|MarsQA.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Skills.feature",
+              "DocumentMoniker": "C:\\IndustryConnect\\clone\\MarsQA\\Features\\Skills.feature",
+              "RelativeDocumentMoniker": "Features\\Skills.feature",
+              "ToolTip": "C:\\IndustryConnect\\clone\\MarsQA\\Features\\Skills.feature",
+              "RelativeToolTip": "Features\\Skills.feature",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADUAAAABAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJXSURBVDhPdVNfSFNhFP/duznd5tRy5N2o1BwoCVJZD0FgulCIXiJqIyiCKIKeequnKGgQ\u002BBSBT770oNtDgv15CKKCGkRgD/WQZCqBcnfnarmcbtO72znfvddNqx/8zs537nd\u002B3znfdybhXxhXfJCwn7x24gb589AxjfOpvPhuwzCMrQIGMaFcInuDyAJOIqNE/EyMIZqaEBELFYG4Ukd2mHidl7WyC8VyCbIkC39NL3CYcROSNIyIqvNCFiETV4nX2Olu7MS78CS6Gzpxse0s3gxM0EmbZ92m0k9YviUQV5rI3iU6drqakFtfQat3D476D\u002BNkIIzVjTXqjvsTcBPv4WlQKNo9DhEbW7278br/MV5qb9H36jR\u002Bln4hmfmAH8WsuauCQ8iX99HvrN3CATaLqypG58bglBzQCkuCX3IzSBczYlMV\u002BHSRYwuISnSjjO/5BZFU0IviAyNU34ZYzy0MKsetiICXjS0wxybka8fD3hgGWo7BX9uMZtcOBOp2wUEVDSn9GOm9LzZbWGBjXm1C6aA7\u002Bko3LXfQacvrOSTDT/BgZhRdDSF0\u002BUI4k7wMj8MDtaBxBr2p0YKoljMriKRmyT7im/62Mg9fTT09tYyP2U94n5lC0K2I9qxkxhgns1M9SEGyz4gHecnPmS0ti0HyON34TU9rIQ3J6ENEm\u002BZFRYAxrvgpMkLeKSJP5nbwfyFC4/zcXG4XYCQCNdTJEeqRp/KCGRRIEa9QMle5ib8FbCQCgzSyL8hbJE7S1juIqmnxrQr/F4gH9lIVPeRNQdZVnFsy41sA/AGfbrS3fsL98AAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-10-15T11:46:47.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LanguagesPage.cs",
+              "DocumentMoniker": "C:\\IndustryConnect\\clone\\MarsQA\\SpecflowPages\\LanguagesPage.cs",
+              "RelativeDocumentMoniker": "SpecflowPages\\LanguagesPage.cs",
+              "ToolTip": "C:\\IndustryConnect\\clone\\MarsQA\\SpecflowPages\\LanguagesPage.cs",
+              "RelativeToolTip": "SpecflowPages\\LanguagesPage.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAGYAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T01:13:57.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LanguagesStepDefinition.cs",
+              "DocumentMoniker": "C:\\IndustryConnect\\clone\\MarsQA\\StepDefinitions\\LanguagesStepDefinition.cs",
+              "RelativeDocumentMoniker": "StepDefinitions\\LanguagesStepDefinition.cs",
+              "ToolTip": "C:\\IndustryConnect\\clone\\MarsQA\\StepDefinitions\\LanguagesStepDefinition.cs",
+              "RelativeToolTip": "StepDefinitions\\LanguagesStepDefinition.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAQwDYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T12:32:33.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SkillsPage.cs",
+              "DocumentMoniker": "C:\\IndustryConnect\\clone\\MarsQA\\SpecflowPages\\SkillsPage.cs",
+              "RelativeDocumentMoniker": "SpecflowPages\\SkillsPage.cs",
+              "ToolTip": "C:\\IndustryConnect\\clone\\MarsQA\\SpecflowPages\\SkillsPage.cs",
+              "RelativeToolTip": "SpecflowPages\\SkillsPage.cs",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAAAIMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T22:05:38.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Languages.feature",
+              "DocumentMoniker": "C:\\IndustryConnect\\clone\\MarsQA\\Features\\Languages.feature",
+              "RelativeDocumentMoniker": "Features\\Languages.feature",
+              "ToolTip": "C:\\IndustryConnect\\clone\\MarsQA\\Features\\Languages.feature",
+              "RelativeToolTip": "Features\\Languages.feature",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAOAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJXSURBVDhPdVNfSFNhFP/duznd5tRy5N2o1BwoCVJZD0FgulCIXiJqIyiCKIKeequnKGgQ\u002BBSBT770oNtDgv15CKKCGkRgD/WQZCqBcnfnarmcbtO72znfvddNqx/8zs537nd\u002B3znfdybhXxhXfJCwn7x24gb589AxjfOpvPhuwzCMrQIGMaFcInuDyAJOIqNE/EyMIZqaEBELFYG4Ukd2mHidl7WyC8VyCbIkC39NL3CYcROSNIyIqvNCFiETV4nX2Olu7MS78CS6Gzpxse0s3gxM0EmbZ92m0k9YviUQV5rI3iU6drqakFtfQat3D476D\u002BNkIIzVjTXqjvsTcBPv4WlQKNo9DhEbW7278br/MV5qb9H36jR\u002Bln4hmfmAH8WsuauCQ8iX99HvrN3CATaLqypG58bglBzQCkuCX3IzSBczYlMV\u002BHSRYwuISnSjjO/5BZFU0IviAyNU34ZYzy0MKsetiICXjS0wxybka8fD3hgGWo7BX9uMZtcOBOp2wUEVDSn9GOm9LzZbWGBjXm1C6aA7\u002Bko3LXfQacvrOSTDT/BgZhRdDSF0\u002BUI4k7wMj8MDtaBxBr2p0YKoljMriKRmyT7im/62Mg9fTT09tYyP2U94n5lC0K2I9qxkxhgns1M9SEGyz4gHecnPmS0ti0HyON34TU9rIQ3J6ENEm\u002BZFRYAxrvgpMkLeKSJP5nbwfyFC4/zcXG4XYCQCNdTJEeqRp/KCGRRIEa9QMle5ib8FbCQCgzSyL8hbJE7S1juIqmnxrQr/F4gH9lIVPeRNQdZVnFsy41sA/AGfbrS3fsL98AAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-09-19T04:42:19.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SkillsStepDefinitions.cs",
+              "DocumentMoniker": "C:\\IndustryConnect\\clone\\MarsQA\\StepDefinitions\\SkillsStepDefinitions.cs",
+              "RelativeDocumentMoniker": "StepDefinitions\\SkillsStepDefinitions.cs",
+              "ToolTip": "C:\\IndustryConnect\\clone\\MarsQA\\StepDefinitions\\SkillsStepDefinitions.cs",
+              "RelativeToolTip": "StepDefinitions\\SkillsStepDefinitions.cs",
+              "ViewState": "AQIAAJUAAAAAAAAAAAAuwKIAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T23:30:56.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WaitUtils.cs",
+              "DocumentMoniker": "C:\\IndustryConnect\\clone\\MarsQA\\Helpers\\WaitUtils.cs",
+              "RelativeDocumentMoniker": "Helpers\\WaitUtils.cs",
+              "ToolTip": "C:\\IndustryConnect\\clone\\MarsQA\\Helpers\\WaitUtils.cs",
+              "RelativeToolTip": "Helpers\\WaitUtils.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAcwB8AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T11:50:06.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Hooks.cs",
+              "DocumentMoniker": "C:\\IndustryConnect\\clone\\MarsQA\\Hooks\\Hooks.cs",
+              "RelativeDocumentMoniker": "Hooks\\Hooks.cs",
+              "ToolTip": "C:\\IndustryConnect\\clone\\MarsQA\\Hooks\\Hooks.cs",
+              "RelativeToolTip": "Hooks\\Hooks.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAACAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T00:16:45.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginPage.cs",
+              "DocumentMoniker": "C:\\IndustryConnect\\clone\\MarsQA\\SpecflowPages\\LoginPage.cs",
+              "RelativeDocumentMoniker": "SpecflowPages\\LoginPage.cs",
+              "ToolTip": "C:\\IndustryConnect\\clone\\MarsQA\\SpecflowPages\\LoginPage.cs",
+              "RelativeToolTip": "SpecflowPages\\LoginPage.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAjwCYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T03:06:10.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Config.cs",
+              "DocumentMoniker": "C:\\IndustryConnect\\clone\\MarsQA\\Configuration\\Config.cs",
+              "RelativeDocumentMoniker": "Configuration\\Config.cs",
+              "ToolTip": "C:\\IndustryConnect\\clone\\MarsQA\\Configuration\\Config.cs",
+              "RelativeToolTip": "Configuration\\Config.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwAoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T13:03:59.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\IndustryConnect\\clone\\MarsQA\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\IndustryConnect\\clone\\MarsQA\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-19T13:04:08.474Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

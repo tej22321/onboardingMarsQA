@@ -19,7 +19,7 @@
           "Selenium.WebDriver.ChromeDriver": "126.0.6478.12600",
           "SeleniumExtras.WaitHelpers": "1.0.2",
           "SpecFlow": "3.9.74",
-          "SpecFlow.NUnit": "3.9.40",
+          "SpecFlow.NUnit": "3.9.74",
           "SpecFlow.Plus.LivingDocPlugin": "3.9.57",
           "SpecFlow.Tools.MsBuild.Generation": "3.9.74",
           "NUnit": "3.13.2"
@@ -581,7 +581,7 @@
           }
         }
       },
-      "SpecFlow.NUnit/3.9.40": {
+      "SpecFlow.NUnit/3.9.74": {
         "dependencies": {
           "NUnit": "3.13.2",
           "SpecFlow": "3.9.74",
@@ -590,7 +590,7 @@
         "runtime": {
           "lib/net6.0/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll": {
             "assemblyVersion": "3.9.0.0",
-            "fileVersion": "3.9.40.46609"
+            "fileVersion": "3.9.74.14555"
           }
         }
       },
@@ -1480,12 +1480,12 @@
       "path": "specflow.internal.json/1.0.8",
       "hashPath": "specflow.internal.json.1.0.8.nupkg.sha512"
     },
-    "SpecFlow.NUnit/3.9.40": {
+    "SpecFlow.NUnit/3.9.74": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+brbJAe0LLzmXh2L78kOJc2fa5EH/7cugmbnfZQdBeWCzL6iFDWFl3MHZ0xx/2BQyu6N/xokqw53Rl30LIo7lw==",
-      "path": "specflow.nunit/3.9.40",
-      "hashPath": "specflow.nunit.3.9.40.nupkg.sha512"
+      "sha512": "sha512-nMPLztTT5IZDMnvNCUxklqaM+agn4kjuNy/qAcYQQOxau2G1MF73UxhL9OXjJQaEuPuyT8gJvXudOYCFZWztxA==",
+      "path": "specflow.nunit/3.9.74",
+      "hashPath": "specflow.nunit.3.9.74.nupkg.sha512"
     },
     "SpecFlow.Plus.LivingDocPlugin/3.9.57": {
       "type": "package",

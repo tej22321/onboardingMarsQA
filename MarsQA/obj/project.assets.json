@@ -854,12 +854,12 @@
           "lib/netstandard2.0/SpecFlow.Internal.Json.dll": {}
         }
       },
-      "SpecFlow.NUnit/3.9.40": {
+      "SpecFlow.NUnit/3.9.74": {
         "type": "package",
         "dependencies": {
           "NUnit": "3.13.1",
-          "SpecFlow": "[3.9.40]",
-          "SpecFlow.Tools.MsBuild.Generation": "[3.9.40]"
+          "SpecFlow": "[3.9.74]",
+          "SpecFlow.Tools.MsBuild.Generation": "[3.9.74]"
         },
         "compile": {
           "lib/net6.0/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll": {
@@ -3393,10 +3393,10 @@
         "specflow.internal.json.nuspec"
       ]
     },
-    "SpecFlow.NUnit/3.9.40": {
-      "sha512": "+brbJAe0LLzmXh2L78kOJc2fa5EH/7cugmbnfZQdBeWCzL6iFDWFl3MHZ0xx/2BQyu6N/xokqw53Rl30LIo7lw==",
+    "SpecFlow.NUnit/3.9.74": {
+      "sha512": "nMPLztTT5IZDMnvNCUxklqaM+agn4kjuNy/qAcYQQOxau2G1MF73UxhL9OXjJQaEuPuyT8gJvXudOYCFZWztxA==",
       "type": "package",
-      "path": "specflow.nunit/3.9.40",
+      "path": "specflow.nunit/3.9.74",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3424,7 +3424,7 @@
         "lib/net6.0/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.pdb",
         "lib/netstandard2.0/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll",
         "lib/netstandard2.0/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.pdb",
-        "specflow.nunit.3.9.40.nupkg.sha512",
+        "specflow.nunit.3.9.74.nupkg.sha512",
         "specflow.nunit.nuspec"
       ]
     },
@@ -6396,7 +6396,7 @@
       "Selenium.WebDriver.ChromeDriver >= 126.0.6478.12600",
       "SeleniumExtras.WaitHelpers >= 1.0.2",
       "SpecFlow >= 3.9.74",
-      "SpecFlow.NUnit >= 3.9.40",
+      "SpecFlow.NUnit >= 3.9.74",
       "SpecFlow.Plus.LivingDocPlugin >= 3.9.57",
       "SpecFlow.Tools.MsBuild.Generation >= 3.9.74",
       "nunit >= 3.13.2"
@@ -6408,11 +6408,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\IndustryConnect\\MarsQA\\MarsQA\\MarsQA.csproj",
+      "projectUniqueName": "C:\\IndustryConnect\\clone\\MarsQA\\MarsQA.csproj",
       "projectName": "MarsQA",
-      "projectPath": "C:\\IndustryConnect\\MarsQA\\MarsQA\\MarsQA.csproj",
+      "projectPath": "C:\\IndustryConnect\\clone\\MarsQA\\MarsQA.csproj",
       "packagesPath": "C:\\Users\\tejas\\.nuget\\packages\\",
-      "outputPath": "C:\\IndustryConnect\\MarsQA\\MarsQA\\obj\\",
+      "outputPath": "C:\\IndustryConnect\\clone\\MarsQA\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tejas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6492,7 +6492,7 @@
           },
           "SpecFlow.NUnit": {
             "target": "Package",
-            "version": "[3.9.40, )"
+            "version": "[3.9.74, )"
           },
           "SpecFlow.Plus.LivingDocPlugin": {
             "target": "Package",
@@ -6526,27 +6526,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: SpecFlow.NUnit 3.9.40 requires SpecFlow (= 3.9.40) but version SpecFlow 3.9.74 was resolved.",
-      "libraryId": "SpecFlow",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: SpecFlow.NUnit 3.9.40 requires SpecFlow.Tools.MsBuild.Generation (= 3.9.40) but version SpecFlow.Tools.MsBuild.Generation 3.9.74 was resolved.",
-      "libraryId": "SpecFlow.Tools.MsBuild.Generation",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }
